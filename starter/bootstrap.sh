@@ -2,10 +2,10 @@
 
 echo "[TASK 1] Install Docker" 
 # install Docker
-zypper --non-interactive install docker
-systemctl enable docker
-usermod -G docker -a $USER
-systemctl restart docker
+# zypper --non-interactive install docker
+# systemctl enable docker
+# usermod -G docker -a $USER
+# systemctl restart docker
 
 echo "[TASK 2] Disable firewalld"
 systemctl stop firewalld
